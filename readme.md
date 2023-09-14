@@ -11,4 +11,6 @@ The template provider can help creating customized configuration files (deprecat
 
 You can use modules to make your terraform more organized
 
-reading 110
+Some instance types have local storage on the instance itself: ephemeral storage
+
+reading 120
