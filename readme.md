@@ -13,4 +13,7 @@ You can use modules to make your terraform more organized
 
 Some instance types have local storage on the instance itself: ephemeral storage
 
-reading 140
+Interpolation: su them vao`, suy ra
+
+reading 205
+https://github.com/wardviaene/terraform-course/tree/master
