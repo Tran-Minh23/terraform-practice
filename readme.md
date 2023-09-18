@@ -4,6 +4,9 @@
 - terraform taint: resource will be recreated in the next apply
 - terraform fmt: format all tf files
 - terraform import [ip]: import the infrastructure (still have to manually create the resource)
+- terraform state: to view the state
+
+Terraform can have the remote state in S3.
 
 terraform provides datasources, Datasources provide you with dynamic information (List of AMIs, AZs): declare a resource "aws_ip_ranges" -> reference to that resource
 
@@ -15,5 +18,5 @@ Some instance types have local storage on the instance itself: ephemeral storage
 
 Interpolation: su them vao`, suy ra
 
-reading 205
+reading 215
 https://github.com/wardviaene/terraform-course/tree/master
