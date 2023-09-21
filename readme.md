@@ -18,5 +18,5 @@ Some instance types have local storage on the instance itself: ephemeral storage
 
 Interpolation: su them vao`, suy ra
 
-reading 215
+reading 225
 https://github.com/wardviaene/terraform-course/tree/master
