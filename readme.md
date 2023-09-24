@@ -18,5 +18,9 @@ Some instance types have local storage on the instance itself: ephemeral storage
 
 Interpolation: su them vao`, suy ra
 
-reading 225
+
+- The task definition describes what docker container to be run on the cluster: docker image, cpu and memory usage, whether the containers should be linked, env variables
+- A Service definition is going to run a specific amount of containers based on the task definition: run 1 or multiple instances, can put Load Balancer in front of the service
+
+reading 265
 https://github.com/wardviaene/terraform-course/tree/master
