@@ -22,5 +22,9 @@ Interpolation: su them vao`, suy ra
 - The task definition describes what docker container to be run on the cluster: docker image, cpu and memory usage, whether the containers should be linked, env variables
 - A Service definition is going to run a specific amount of containers based on the task definition: run 1 or multiple instances, can put Load Balancer in front of the service
 
-reading 290
+To achieve multiple environmentsL
+    - Use terraform workspaces
+    - Use modules and separate directories
+
+reading 300
 https://github.com/wardviaene/terraform-course/tree/master
