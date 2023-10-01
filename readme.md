@@ -26,5 +26,5 @@ To achieve multiple environmentsL
     - Use terraform workspaces
     - Use modules and separate directories
 
-reading 315
+reading 390
 https://github.com/wardviaene/terraform-course/tree/master
