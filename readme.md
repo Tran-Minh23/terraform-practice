@@ -5,6 +5,7 @@
 - terraform fmt: format all tf files
 - terraform import [ip]: import the infrastructure (still have to manually create the resource)
 - terraform state: to view the state
+- terraform init: init project, always use the same provider version in lock file
 
 Terraform can have the remote state in S3.
 
@@ -28,3 +29,6 @@ To achieve multiple environmentsL
 
 reading 390
 https://github.com/wardviaene/terraform-course/tree/master
+
+https://developer.hashicorp.com/terraform/language/files/dependency-lock - check sum
+https://github.com/b0ld8/tf-awesome/blob/main/multiple_environments/separated_directories/environments/staging/provider.tf
