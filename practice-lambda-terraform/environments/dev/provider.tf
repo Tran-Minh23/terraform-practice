@@ -5,16 +5,17 @@ terraform {
       version = "5.31.0"
     }
   }
- 
-#   backend "s3" {
-#     bucket                  = "tf-awesome-backend"
-#     key                     = "multi-environments/staging/terraform.tfstate"
-#     region                  = "ap-southeast-1"
-#     profile                 = "tf-awesome"
-#   }
+
+  backend "s3" {
+    bucket                  = "tf-awesome-backend-dev"
+    key                     = "terraform.tfstate"
+    region                  = "ap-southeast-1"
+    profile                 = "mink"
+    dynamodb_table          = "tf-awesome-backend-dev-table"
+  }
 }
 
 provider "aws" {
-  profile = "default"
+  profile = "mink"
   region  = var.AWS_REGION
 }
